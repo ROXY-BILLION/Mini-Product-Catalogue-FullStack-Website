@@ -10,7 +10,7 @@ import {
 } from "react-icons/fi";
 
 function App() {
-  const API_URL = "http://localhost:5000/api/products";
+  const API_URL = "https://mini-product-catalogue-fullstack-website.onrender.com/api/products";
   
   // Track whether products are being loaded
   const [loading, setLoading] = useState(true);
